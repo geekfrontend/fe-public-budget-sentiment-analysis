@@ -1,9 +1,12 @@
-import { title } from "@/components/primitives";
+import About from "@/modules/about";
+import Wrapper from "@/components/Wrapper";
 
-export default function AboutPage() {
+const AboutPage = () => {
   return (
-    <div>
-      <h1 className={title()}>About</h1>
-    </div>
+    <Wrapper>
+      <About />
+    </Wrapper>
   );
-}
+};
+
+export default AboutPage;
