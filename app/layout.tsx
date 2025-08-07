@@ -34,12 +34,12 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          "min-h-screen text-foreground bg-background font-sans antialiased",
+          "min-h-screen text-foreground font-sans antialiased",
           fontSans.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <div className="max-w-[480px] bg-gradient-to-br from-blue-200 via-sky-100 to-cyan-100 mx-auto md:shadow-md min-h-screen">
+          <div className="max-w-[480px] bg-gradient-to-br from-blue-200 via-sky-100 to-cyan-100 dark:from-gray-900 dark:via-gray-950 dark:to-black mx-auto md:shadow-md min-h-screen">
             {children}
           </div>
         </Providers>

@@ -7,7 +7,8 @@ interface PageWrapperProps {
 }
 
 const PageWrapper = ({ children, className }: PageWrapperProps) => {
-  const baseClass = "min-h-screen bg-white p-6 -mt-8 pb-28 rounded-t-3xl";
+  const baseClass =
+    "min-h-screen bg-white p-6 -mt-8 pb-28 rounded-t-3xl dark:bg-gray-900";
   const combinedClassNames = clsx(baseClass, className);
 
   return <div className={combinedClassNames}>{children}</div>;
