@@ -1,0 +1,51 @@
+export const dummySentimentData = [
+  {
+    id: "sent_001",
+    text: "Penggunaan anggaran terlalu besar untuk rapat-rapat yang tidak berdampak nyata. Ini sangat membuang-buang uang rakyat!",
+    sentiment: "Angry",
+    confidence: 0.95,
+    timestamp: "2025-08-07T14:30:00Z",
+  },
+  {
+    id: "sent_002",
+    text: "Saya khawatir dengan transparansi laporan anggaran daerah. Apakah ada pengawasan yang cukup ketat?",
+    sentiment: "Frightened",
+    confidence: 0.91,
+    timestamp: "2025-08-07T11:25:00Z",
+  },
+  {
+    id: "sent_003",
+    text: "Salut! Pemerintah berhasil menghemat anggaran hingga 30% dan mengalihkan dana ke sektor pendidikan. Ini langkah positif!",
+    sentiment: "Happy",
+    confidence: 0.97,
+    timestamp: "2025-08-07T10:15:00Z",
+  },
+  {
+    id: "sent_004",
+    text: "Banyak program masyarakat yang dipotong anggarannya. Padahal, itu sangat membantu warga kurang mampu. Saya merasa sedih.",
+    sentiment: "Sad",
+    confidence: 0.89,
+    timestamp: "2025-08-06T18:00:00Z",
+  },
+  {
+    id: "sent_005",
+    text: "Tiba-tiba muncul laporan penggunaan anggaran untuk proyek yang tidak pernah dibahas sebelumnya. Ini sangat mengejutkan!",
+    sentiment: "Surprise",
+    confidence: 0.84,
+    timestamp: "2025-08-06T09:00:00Z",
+  },
+  {
+    id: "sent_006",
+    text: "Anggaran untuk fasilitas publik justru digunakan untuk renovasi kantor pejabat. Ini menjijikkan dan tidak pantas!",
+    sentiment: "Disgusted",
+    confidence: 0.98,
+    timestamp: "2025-08-05T20:10:00Z",
+  },
+  {
+    id: "sent_007",
+    text: "Ide luar biasa! Digitalisasi laporan anggaran secara real-time membuat publik bisa ikut mengawasi dengan mudah!",
+    sentiment: "Enthusiastic",
+    confidence: 0.96,
+    timestamp: "2025-08-05T15:00:00Z",
+  },
+];
